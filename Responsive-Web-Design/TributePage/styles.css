@@ -1,0 +1,48 @@
+body {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png);
+}
+h1 {
+	text-align: center;
+}
+#image {
+	display: block;
+	align-items: center;
+	max-width: 100%;
+	height: auto;
+}
+#img-div {
+	align-items: center;
+	width: 640px;
+	max-width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+h5 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+#img-caption {
+	text-align: center;
+}
+#lightblue {
+	width: 80%;
+	background-color: lightblue;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	max-width: 750px;
+	margin-top: 50px;
+	margin-bottom: -25px;
+}
+#linea {
+	width: 750px;
+	height: 2px;
+	color: black;
+	border-color: black;
+}
+#timeline {
+	line-height: 40px;
+}

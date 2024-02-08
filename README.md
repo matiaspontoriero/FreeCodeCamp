@@ -1,11 +1,13 @@
 # FreeCodeCamp
-A repository containing all the FreeCodeCamp Curriculum's projects made by myself. 
 
-### [Profile](https://www.freecodecamp.org/andresgarbarz)
+A repository containing all the FreeCodeCamp Curriculum's projects made by myself.
+
+### [Profile](https://www.freecodecamp.org/matiaspontoriero)
 
 ### Progress
-| Course | State |
-| :---: | :---: |
-| [*JavaScript Algorithms and Data Structures (Beta)*](https://github.com/andresgarbarz/FreeCodeCamp/tree/main/JS-Algorithms-and-Data-Structures-v8) | Completed (5/5) ✔️ |
-| [*JavaScript Algorithms and Data Structures*](https://github.com/andresgarbarz/FreeCodeCamp/tree/main/JS-Algorithms-and-Data-Structures) | Completed  (5/5) ✔️ |
-| [*Back End Development and APIs*](https://github.com/andresgarbarz/FreeCodeCamp/tree/main/Back-End-Development-and-API) | Completed  (5/5) ✔️ |
+
+|                                                                 Course                                                                 |        State         |
+| :------------------------------------------------------------------------------------------------------------------------------------: | :------------------: |
+| [_JavaScript Algorithms and Data Structures (Beta)_](https://github.com/matiaspontoriero/FreeCodeCamp/tree/main/Responsive-Web-Design) | In progress (2/5) ⌛ |
+
+###### _Template downloaded from [@andresgarbarz](https://github.com/andresgarbarz)_
