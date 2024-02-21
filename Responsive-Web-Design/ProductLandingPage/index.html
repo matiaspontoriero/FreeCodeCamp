@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="styles.css" rel="stylesheet" />
+		<title>Lamborghini</title>
+	</head>
+	<body class="body">
+		<header id="header">
+			<img
+				src="https://www.lamborghini.com/sites/it-en/files/themes/custom/lambo_facelift_2019/images/logo.png"
+				alt="Logo"
+				class="logo"
+				id="header-img"
+			/>
+			<nav id="nav-bar" class="navbar">
+				<a href="#header-img" class="nav-link top">Top</a>
+				<a href="#video" class="nav-link vid">Video</a>
+				<a href="#form" class="nav-link contact">Contact</a>
+			</nav>
+		</header>
+		<div class="centro">
+			<iframe
+				width="640"
+				height="360"
+				src="https://www.youtube.com/embed/ZZXQmBx6HI8"
+				frameborder="0"
+				allowfullscreen
+				class="video"
+				id="video"
+			></iframe>
+		</div>
+		<div class="mailtext">
+			<h3>Wanna find out more? Give us your E-mail:</h3>
+			<form
+				id="form"
+				class="form"
+				action="https://www.freecodecamp.com/email-submit"
+			>
+				<input
+					type="email"
+					id="email"
+					name="email"
+					class="email"
+					placeholder="Enter your E-mail"
+					required
+				/>
+				<input type="submit" id="submit" class="submit" />
+			</form>
+		</div>
+	</body>
+</html>

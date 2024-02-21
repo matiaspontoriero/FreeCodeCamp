@@ -1,4 +1,5 @@
 body {
+	background-position-x: center;
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png);
 }
 h1 {
@@ -36,9 +37,11 @@ h3 {
 	max-width: 750px;
 	margin-top: 50px;
 	margin-bottom: -25px;
+	box-shadow: 10px 5px 5px rgba(25, 25, 25, 0.502);
 }
 #linea {
-	width: 750px;
+	width: auto;
+	max-width: 750px;
 	height: 2px;
 	color: black;
 	border-color: black;

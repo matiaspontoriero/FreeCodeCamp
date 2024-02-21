@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	background-color: blueviolet;
+}
+
+.welcome {
+	text-align: center;
+	align-items: center;
+	font-family: "Montserrat";
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+	height: 100vh;
+	color: white;
+	background: url(https://i.pinimg.com/originals/f6/de/ab/f6deab221a6537605dbdd96edff034db.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.navbar {
+	background: rgb(23, 28, 68);
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	box-shadow: 0px 4px 5px rgb(23, 28, 68);
+	transition: 600ms ease;
+	z-index: 998;
+}
+
+.merge-shadow {
+	height: 1vh;
+	z-index: 99;
+}
+
+.cont {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 25vh;
+}
+
+.proy {
+	height: 50vh;
+	width: 75vh;
+	border-radius: 10%;
+	box-shadow: 0px 4px 5px black;
+}
+
+.proy:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+a {
+	text-decoration: none;
+	margin: 0 10px;
+	color: white;
+	font-size: 25px;
+	font-family: "Montserrat";
+	transition: 1s;
+}
+
+a:hover {
+	color: white;
+	transform: scale(1.5);
+	transition: 1s;
+}
+
+a:active {
+	color: gray;
+	transition: 1s;
+}
+
+.na:active {
+	color: white;
+	transform: scale(1.5);
+	transition: 0.5s;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: "montserrat";
+	color: white;
+}
+
+.proytit {
+	font-size: 40px;
+	justify-content: center;
+	margin-bottom: 60vh;
+	position: absolute;
+}
+
+p {
+	font-size: 20px;
+}
+
+h2 {
+	font-family: "montserrat";
+	color: white;
+	text-shadow: 0px 4px 5px black;
+}
+
+button {
+	background: rgb(23, 28, 68);
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 0px 4px 5px black;
+	border: none;
+}
+
+button:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+#projects {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background: url(https://www.snexplores.org/wp-content/uploads/2022/10/1440_You_a_computer_feat-1440x700.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background: url(https://wallpapercave.com/wp/wp8731653.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.logos-container a:hover img {
+	transform: scale(1.5);
+	transition: 1s;
+}
+
+.logos-container a.linkedin:hover img,
+.logos-container a.github:hover svg {
+	transform: scale(1.5);
+	transition: 1s;
+}
+
+.logos-container a.twitter:hover svg {
+	transform: scale(1.5);
+	transition: 1s;
+}
+
+@media (max-width: 1000px) {
+	.cont {
+		flex-direction: row;
+		margin-top: 50vh;
+	}
+
+	.proy {
+		height: 30vh;
+		width: 50vh;
+		border-radius: 10%;
+		box-shadow: 0px 4px 5px black;
+	}
+
+	.proy:hover {
+		transform: scale(1.1);
+		transition: 0.5s;
+	}
+
+	.proytit {
+		font-size: 40px;
+		justify-content: center;
+		margin-bottom: 60vh;
+		position: absolute;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	h2 {
+		font-family: "montserrat";
+		color: white;
+		text-shadow: 0px 4px 5px black;
+	}
+
+	button {
+		background: rgb(23, 28, 68);
+		color: white;
+		border: none;
+		padding: 10px 20px;
+		font-size: 20px;
+		cursor: pointer;
+		border-radius: 10px;
+		box-shadow: 0px 4px 5px black;
+		border: none;
+	}
+
+	button:hover {
+		transform: scale(1.1);
+		transition: 0.5s;
+	}
+
+	#projects {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100vh;
+		background: url(https://www.snexplores.org/wp-content/uploads/2022/10/1440_You_a_computer_feat-1440x700.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+
+	#contact {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100vh;
+		background: url(https://wallpapercave.com/wp/wp8731653.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+
+	.logos-container a:hover img {
+		transform: scale(1.5);
+		transition: 1s;
+	}
+
+	.logos-container a.linkedin:hover img,
+	.logos-container a.github:hover svg {
+		transform: scale(1.5);
+		transition: 1s;
+	}
+
+	.logos-container a.twitter:hover svg {
+		transform: scale(1.5);
+		transition: 1s;
+	}
+}
+@media (max-width: 700px) {
+	.proy {
+		height: 30vh;
+		width: 40vh;
+	}
+}
+@media (max-width: 550px) {
+	.proy {
+		height: 25vh;
+		width: 30vh;
+	}
+}
+@media (max-width: 400px) {
+	.proy {
+		height: 20vh;
+		width: 20vh;
+	}
+}
+@media (max-width: 300px) {
+	.proy {
+		height: 15vh;
+		width: 15vh;
+	}
+}
