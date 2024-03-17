@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font-family: "Montserrat";
+	font-weight: 400;
+	line-height: 1.8;
+	color: #333;
+	background-image: linear-gradient(120deg, #8b4513, #a0522d, #d2b48c);
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}

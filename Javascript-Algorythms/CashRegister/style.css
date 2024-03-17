@@ -1,0 +1,26 @@
+body,
+html {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	background-color: brown;
+	flex-direction: column;
+}
+
+h1 {
+	margin-top: 10vh;
+	font-size: 3rem;
+}
+
+.container {
+	text-align: center;
+}
+
+input,
+button {
+	margin: 5px;
+	padding: 5px;
+}
