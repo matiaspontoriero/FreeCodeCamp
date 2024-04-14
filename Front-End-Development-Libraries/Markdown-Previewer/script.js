@@ -96,6 +96,61 @@ Argentina es:
 
 >"Juanceto01, sai che sarai il primo ad essere bannato dal stream?" - Gerónimo "Momo" Benavidez
 
+>"No me gusta el fútbol, el asado, el mate ni el dulce de leche" - nadie
+
+>"Noi siamo il disidente dil imperatore di Roma Tito Calderone" - Yo
+
+>"No trates de entenderlo" - Claudio "Chiqui" Tapia
+
+>"No me gusta el fútbol, pero soy de Boca" - cualquier bostero
+
+>"Argentina robó en los mundiales" - cualquier inglés o mexicano
+
+>"Verás que todo es mentira, verás que nada es amor, que al mundo nada le importa" - Fito Páez
+
+>"Verón es un traidor" - cualquier hincha de Estudiantes de La Plata
+
+>"BOOOOOCAAAAAAA" - cualquier bostero
+
+>"La vida es como un partido de fútbol, nunca sabes cuándo te van a sacar tarjeta roja" - Anónimo
+
+>"El fútbol es la dinámica de lo impensado" - César Luis Menotti
+
+>"Yo soy de Ñuls" - Lionel Messi
+
+>"Correr corre cualquiera" - Juan Román Riquelme
+
+>"El fútbol es un deporte en el que juegan once contra once y siempre gana Argentina" - Diego Maradona
+
+>"El fútbol es un juego de caballeros jugado por villanos" - Osvaldo Soriano
+
+>"El fútbol es el opio del pueblo" - Carlos Bilardo
+
+>"El fútbol es un ballet para el pueblo" - Carlos Tevez
+
+>"El fútbol es un deporte que se juega con el corazón" - Gabriel Batistuta
+
+>"El fútbol es un deporte que se juega con el alma" - Juan Sebastián Verón
+
+>"El fútbol es un deporte que se juega con la pasión" - Martín Palermo
+
+>"El fútbol es la cosa más importante de las cosas menos importantes" - Jorge Valdano
+
+>"La pelota siempre al 10" - César Luis Menotti
+
+>"El gol es el orgasmo del fútbol" - Jorge Valdano
+
+>"El fútbol es un juego simple: 22 hombres corren detrás de una pelota durante 90 minutos y al final, los alemanes siempre ganan" - Gary Lineker
+
+>"El fútbol es un deporte que inventaron los ingleses, juegan once contra once, y siempre gana Alemania" - Gary Lineker
+
+>"El fútbol es un deporte que se juega con el cerebro" - Johan Cruyff
+
+>"El fútbol es un juego de errores. Quien hace menos errores gana" - Johan Cruyff
+
+>"El fútbol es un juego, pero es el juego más hermoso del mundo" - Johan Cruyff
+
+>"En el fútbol, el peor ciego es el que solo ve la pelota" - Nelson Rodrigues
   `;
 
 	function updatePreview() {
