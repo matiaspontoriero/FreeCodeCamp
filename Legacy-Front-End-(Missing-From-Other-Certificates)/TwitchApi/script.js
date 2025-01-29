@@ -13,13 +13,23 @@ const streamers = [
 	{ name: "noobs2ninjas", status: "" },
 ];
 
+function makeURL(type, name) {
+	return (
+		"https://twitch-proxy.freecodecamp.rocks/twitch-api/" +
+		type +
+		"/" +
+		name +
+		"?callback=?"
+	);
+}
+
 const getStreamerStatus = async (streamer) => {
 	try {
-		const url = `https://api.freecodecamp.org/api/twitch/${streamer.name}`;
+		const url = makeURL("streams", streamer.name);
 		const response = await fetch(url);
 		if (response.ok) {
 			const data = await response.json();
-			streamer.status = data.status;
+			streamer.status = data.data.length > 0 ? "Online" : "Offline";
 			return data;
 		} else {
 			throw new Error("Network response was not ok.");
@@ -33,13 +43,14 @@ const getStreamerStatus = async (streamer) => {
 
 const statusChecker = async () => {
 	for (let i = 0; i < streamers.length; i++) {
-		const data = await getStreamerStatus(streamers[i]);
-		streamers[i].status = data.status;
+		await getStreamerStatus(streamers[i]);
 	}
 };
 
 statusChecker().then(() => {
-	all.innerHTML = streamers
-		.map((streamer) => `<li>${streamer.name} - ${streamer.status}</li>`)
-		.join("");
+	if (all) {
+		all.innerHTML = streamers
+			.map((streamer) => `<li>${streamer.name} - ${streamer.status}</li>`)
+			.join("");
+	}
 });
